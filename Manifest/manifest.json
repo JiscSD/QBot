@@ -2,7 +2,7 @@
   "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
   "manifestVersion": "1.5",
   "version": "1.0.0",
-  "id": "b14dd421-2d8c-42a6-afff-3c8ef39d73ce",
+  "id": "47a83f7b-47f9-44da-b11e-dd6217ddab69",
   "packageName": "qbot",
   "developer": {
     "name": "UNSW Sydney",
@@ -34,7 +34,7 @@
     ],
   "bots": [
     {
-      "botId": "b14dd421-2d8c-42a6-afff-3c8ef39d73ce",
+      "botId": "47a83f7b-47f9-44da-b11e-dd6217ddab69",
       "scopes": [
         "team"
       ]
