@@ -2,7 +2,7 @@
   "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
   "manifestVersion": "1.5",
   "version": "1.0.0",
-  "id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxx",
+  "id": "47a83f7b-47f9-44da-b11e-dd6217ddab69",
   "packageName": "qbot",
   "developer": {
     "name": "UNSW Sydney",
@@ -25,7 +25,7 @@
   "accentColor": "#6264A7",
   "configurableTabs": [
       {
-        "configurationUrl": "https://qbot-questions-tab.azurewebsites.net/config?upn={loginHint}&tid={tid}&gid={groupId}&cname={channelName}",
+        "configurationUrl": "https://jisc-qbot-questions.azurewebsites.net/config?upn={upn}&tid={tid}&gid={gid}&cname={channelName}",
         "canUpdateConfiguration": true,
         "scopes": [
           "team"
@@ -34,7 +34,7 @@
     ],
   "bots": [
     {
-      "botId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxx",
+      "botId": "47a83f7b-47f9-44da-b11e-dd6217ddab69",
       "scopes": [
         "team"
       ]
@@ -44,7 +44,7 @@
     {
       "entityId": "DashboardTab",
       "name": "Dashboard",
-      "contentUrl": "https://qbot-dashboard-tab.azurewebsites.net/home?upn={loginHint}&tid={tid}&gid={groupId}&uid={userObjectId}",
+      "contentUrl": "https://jisc-qbot-dashboard.azurewebsites.net/home?upn={upn}&tid={tid}&gid={groupId}&uid={userObjectId}",
       "scopes": [ "personal" ]
     }
   ],
@@ -52,5 +52,5 @@
     "identity",
     "messageTeamMembers"
   ],
-  "validDomains": [ "qbot-dashboard-tab.azurewebsites.net", "qbot-questions-tab.azurewebsites.net", "qbot-api.azurewebsites.net" ]
+  "validDomains": [ "jisc-qbot.azurewebsites.net", "jisc-qbot-questions.azurewebsites.net", "jisc-qbot-dashboard.azurewebsites.net" ]
 }
