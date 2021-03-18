@@ -25,7 +25,7 @@
   "accentColor": "#6264A7",
   "configurableTabs": [
       {
-        "configurationUrl": "https://jisc-qbot-questions.azurewebsites.net/config?upn={upn}&tid={tid}&gid={gid}&cname={channelName}",
+        "configurationUrl": "https://jisc-qbot-questions.azurewebsites.net/#/config?upn={upn}&tid={tid}&gid={gid}&cname={channelName}",
         "canUpdateConfiguration": true,
         "scopes": [
           "team"
@@ -44,7 +44,7 @@
     {
       "entityId": "DashboardTab",
       "name": "Dashboard",
-      "contentUrl": "https://jisc-qbot-dashboard.azurewebsites.net/home?upn={upn}&tid={tid}&gid={groupId}&uid={userObjectId}",
+      "contentUrl": "https://jisc-qbot-dashboard.azurewebsites.net/#/home?upn={upn}&tid={tid}&gid={groupId}&uid={userObjectId}",
       "scopes": [ "personal" ]
     }
   ],
