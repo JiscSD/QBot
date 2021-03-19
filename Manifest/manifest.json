@@ -52,5 +52,5 @@
     "identity",
     "messageTeamMembers"
   ],
-  "validDomains": [ "jisc-qbot.azurewebsites.net", "jisc-qbot-questions.azurewebsites.net", "jisc-qbot-dashboard.azurewebsites.net" ]
+  "validDomains": [ "jisc-qbot-qnamaker.azurewebsites.net", "jisc-qbot-questions.azurewebsites.net", "jisc-qbot-dashboard.azurewebsites.net" ]
 }
